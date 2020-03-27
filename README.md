@@ -1,6 +1,6 @@
 # game-sales-FIDS
 
-This project presents an analysis of video game sales, using a dataset of games sold after the year 2000. We attempt to conduct a regression analysis to unlock actionable business insights.
+This project presents an analysis of video game sales, using a dataset of games sold after the year 2000. We (Bryan Santos and Tim Lee) attempt to conduct a regression analysis to unlock actionable business insights.
 
 In this repository are two notebooks: 
 
@@ -9,7 +9,7 @@ In this repository are two notebooks:
 
 Our presentation deck is located here: https://docs.google.com/presentation/d/1I1X66QhRbQfrPFrWEN2oMRlhWjOwGluZ-PZPwMvtNwo/edit?usp=sharing
 
-## EDA and visualizations
+## EDA and Visualizations
 Our EDA and visualizations can be viewed in detail in the tech_presentation_notebook.
 
 ## Feature Engineering
