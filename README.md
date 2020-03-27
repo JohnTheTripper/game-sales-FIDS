@@ -32,12 +32,13 @@ We identified three key features with an effect on our model.
 * **Current generation flag** This engineered feature indicates when a game was released for an obsolete console, a console whose successor has launched. A two-sample t-test suggested that these games have lower sales.
 * **Metacritic score** This is a representation of a game's critical reception. Better-quality games have higher sales. It's worth noting that we observed a *negative* correlation between Metacritic's user scores and a game's sales. It may be because popular games attract lots of negative attention online, and dissatisfied users will take to the web to complain.
 
+![Game Sales vs. Console Sales](https://github.com/JohnTheTripper/game-sales-FIDS/blob/master/readme_images/platform.png)
 ![PS2 and Wii dominance](https://github.com/JohnTheTripper/game-sales-FIDS/blob/master/readme_images/platform_sales.png)
 
 ## Conclusions and Use-Case Recomendations
 We identified three business-case recommendations as guidance when planning development of games.
 * **Make critically-accepted games, but ignore complaining from the masses** Game quality and reception DOES matter, but only from the critics. Professional critics and journalists are qualified at evaluating games, and their clout does matter in shaping public perception of games. However, finding a negative correlation between user scores and game sales was surprising, and indicates it may not be best to try and pander to the loudest or the most vocally dissatisfied customers.
-* **Do not make games for obsolete consoles** We observed a drop in sales in games that were released on obsolete consoles. Games have moved onto the next generation, and resources are better spent capturing customers on the latest console.
+* **Don't make games for obsolete consoles** We observed a drop in sales in games that were released on obsolete consoles. Games have moved onto the next generation, and resources are better spent capturing customers on the latest console.
 * **Don't bother re-releasing games on successor consoles** Conversely, if a game is released on a console near the end of its lifespan, it may not be worth it to spend development time and effort porting the game to the successor console. We saw higher sales of games on the predecessor console. Perhaps gamers interested in the game would have bought it at their first opportunity, when available on the predecessor console. We admit that there is one scenario where this suggestion loses validity: if fans are actually purchasing the game twice. However, to negate this suggestion, the increased sales from gamers purchasing the game twice would have to offset the development resources spent on porting the game to the new console. 
 
 ![critical and user reception correlation with sales](https://github.com/JohnTheTripper/game-sales-FIDS/blob/master/readme_images/weights.png)
